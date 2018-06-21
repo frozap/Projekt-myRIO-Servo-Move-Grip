@@ -27,7 +27,70 @@
 			</Item>
 			<Item Name="myRIO Project Documentation.html" Type="Document" URL="../documentation/myRIO Project Documentation.html"/>
 		</Item>
-		<Item Name="Dependencies" Type="Dependencies"/>
+		<Item Name="RubikLibrary.lvlib" Type="Library" URL="../../Projekt-RubikLibrary/RubikLibrary.lvlib"/>
+		<Item Name="Dependencies" Type="Dependencies">
+			<Item Name="vi.lib" Type="Folder">
+				<Item Name="Calculate Clock Settings.vi" Type="VI" URL="/&lt;vilib&gt;/myRIO/common/Instrument Driver Framework/utilities/VIs/Calculate Clock Settings.vi"/>
+				<Item Name="Calculate Frequency (Normal Mode).vi" Type="VI" URL="/&lt;vilib&gt;/myRIO/common/Instrument Driver Framework/utilities/VIs/Calculate Frequency (Normal Mode).vi"/>
+				<Item Name="Calculate Frequency (Phase Correct Mode).vi" Type="VI" URL="/&lt;vilib&gt;/myRIO/common/Instrument Driver Framework/utilities/VIs/Calculate Frequency (Phase Correct Mode).vi"/>
+				<Item Name="Calculate TOP (Normal Mode).vi" Type="VI" URL="/&lt;vilib&gt;/myRIO/common/Instrument Driver Framework/utilities/VIs/Calculate TOP (Normal Mode).vi"/>
+				<Item Name="Calculate TOP (Phase Correct Mode).vi" Type="VI" URL="/&lt;vilib&gt;/myRIO/common/Instrument Driver Framework/utilities/VIs/Calculate TOP (Phase Correct Mode).vi"/>
+				<Item Name="Clock Calculation Parameters.ctl" Type="VI" URL="/&lt;vilib&gt;/myRIO/common/Instrument Driver Framework/utilities/Typedefs/Clock Calculation Parameters.ctl"/>
+				<Item Name="Clock Settings.ctl" Type="VI" URL="/&lt;vilib&gt;/myRIO/common/Instrument Driver Framework/utilities/Typedefs/Clock Settings.ctl"/>
+				<Item Name="Configuration Manager.vi" Type="VI" URL="/&lt;vilib&gt;/myRIO/common/Instrument Driver Framework/utilities/VIs/Configuration Manager.vi"/>
+				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
+				<Item Name="Find Mutex.vi" Type="VI" URL="/&lt;vilib&gt;/myRIO/common/Instrument Driver Framework/utilities/VIs/Find Mutex.vi"/>
+				<Item Name="FPGA Ref Manager Action Enum.ctl" Type="VI" URL="/&lt;vilib&gt;/myRIO/common/Instrument Driver Framework/utilities/Typedefs/FPGA Ref Manager Action Enum.ctl"/>
+				<Item Name="FPGA Ref Manager.vi" Type="VI" URL="/&lt;vilib&gt;/myRIO/common/Instrument Driver Framework/utilities/VIs/FPGA Ref Manager.vi"/>
+				<Item Name="Generic FPGA Reference.ctl" Type="VI" URL="/&lt;vilib&gt;/myRIO/common/Instrument Driver Framework/utilities/Typedefs/Generic FPGA Reference.ctl"/>
+				<Item Name="Hardware Version Enum.ctl" Type="VI" URL="/&lt;vilib&gt;/myRIO/common/Instrument Driver Framework/utilities/Typedefs/Hardware Version Enum.ctl"/>
+				<Item Name="IO Config FPGA Reference.ctl" Type="VI" URL="/&lt;vilib&gt;/myRIO/common/Instrument Driver Framework/myRIO v1.0/Resource Manager/Typedefs/IO Config FPGA Reference.ctl"/>
+				<Item Name="IO Manager.vi" Type="VI" URL="/&lt;vilib&gt;/myRIO/common/Instrument Driver Framework/utilities/VIs/IO Manager.vi"/>
+				<Item Name="Is FPGA Ref Available.vi" Type="VI" URL="/&lt;vilib&gt;/myRIO/common/Instrument Driver Framework/utilities/VIs/Is FPGA Ref Available.vi"/>
+				<Item Name="Lock Mutex.vi" Type="VI" URL="/&lt;vilib&gt;/myRIO/common/Instrument Driver Framework/utilities/VIs/Lock Mutex.vi"/>
+				<Item Name="LVNumericRepresentation.ctl" Type="VI" URL="/&lt;vilib&gt;/Numeric/LVNumericRepresentation.ctl"/>
+				<Item Name="Mutex Collection.ctl" Type="VI" URL="/&lt;vilib&gt;/myRIO/common/Instrument Driver Framework/utilities/Typedefs/Mutex Collection.ctl"/>
+				<Item Name="myRIO Generic Hardware Reference.ctl" Type="VI" URL="/&lt;vilib&gt;/myRIO/common/Instrument Driver Framework/utilities/Typedefs/myRIO Generic Hardware Reference.ctl"/>
+				<Item Name="myRIO v1.0 Build Mutex Name.vi" Type="VI" URL="/&lt;vilib&gt;/myRIO/common/Instrument Driver Framework/myRIO v1.0/Resource Manager/VIs/myRIO v1.0 Build Mutex Name.vi"/>
+				<Item Name="myRIO v1.0 Build MUX Configuration PWM.vi" Type="VI" URL="/&lt;vilib&gt;/myRIO/common/Instrument Driver Framework/myRIO v1.0/PWM/VIs/myRIO v1.0 Build MUX Configuration PWM.vi"/>
+				<Item Name="myRIO v1.0 Channel Reservation Info.ctl" Type="VI" URL="/&lt;vilib&gt;/myRIO/common/Instrument Driver Framework/myRIO v1.0/Resource Manager/Typedefs/myRIO v1.0 Channel Reservation Info.ctl"/>
+				<Item Name="myRIO v1.0 Channel Reservation List.ctl" Type="VI" URL="/&lt;vilib&gt;/myRIO/common/Instrument Driver Framework/myRIO v1.0/Resource Manager/Typedefs/myRIO v1.0 Channel Reservation List.ctl"/>
+				<Item Name="myRIO v1.0 Close.vi" Type="VI" URL="/&lt;vilib&gt;/myRIO/common/Instrument Driver Framework/myRIO v1.0/myRIO v1.0 Close.vi"/>
+				<Item Name="myRIO v1.0 Configure IO.vi" Type="VI" URL="/&lt;vilib&gt;/myRIO/common/Instrument Driver Framework/myRIO v1.0/Resource Manager/VIs/myRIO v1.0 Configure IO.vi"/>
+				<Item Name="myRIO v1.0 Connector List.ctl" Type="VI" URL="/&lt;vilib&gt;/myRIO/common/Instrument Driver Framework/myRIO v1.0/Resource Manager/Typedefs/myRIO v1.0 Connector List.ctl"/>
+				<Item Name="myRIO v1.0 Create Configuration List.vi" Type="VI" URL="/&lt;vilib&gt;/myRIO/common/Instrument Driver Framework/myRIO v1.0/Resource Manager/VIs/myRIO v1.0 Create Configuration List.vi"/>
+				<Item Name="myRIO v1.0 Generate Register Values PWM.vi" Type="VI" URL="/&lt;vilib&gt;/myRIO/common/Instrument Driver Framework/myRIO v1.0/PWM/VIs/myRIO v1.0 Generate Register Values PWM.vi"/>
+				<Item Name="myRIO v1.0 Reference.ctl" Type="VI" URL="/&lt;vilib&gt;/myRIO/common/Instrument Driver Framework/utilities/Typedefs/myRIO v1.0 Reference.ctl"/>
+				<Item Name="myRIO v1.0 Reserve Channel List.vi" Type="VI" URL="/&lt;vilib&gt;/myRIO/common/Instrument Driver Framework/myRIO v1.0/Resource Manager/VIs/myRIO v1.0 Reserve Channel List.vi"/>
+				<Item Name="myRIO v1.0 Reserve Channel.vi" Type="VI" URL="/&lt;vilib&gt;/myRIO/common/Instrument Driver Framework/myRIO v1.0/Resource Manager/VIs/myRIO v1.0 Reserve Channel.vi"/>
+				<Item Name="myRIO v1.0 Reserve PWM.vi" Type="VI" URL="/&lt;vilib&gt;/myRIO/common/Instrument Driver Framework/myRIO v1.0/PWM/VIs/myRIO v1.0 Reserve PWM.vi"/>
+				<Item Name="myRIO v1.0 Unreserve Channel.vi" Type="VI" URL="/&lt;vilib&gt;/myRIO/common/Instrument Driver Framework/myRIO v1.0/Resource Manager/VIs/myRIO v1.0 Unreserve Channel.vi"/>
+				<Item Name="myRIO v1.0 Wait for RDY.vi" Type="VI" URL="/&lt;vilib&gt;/myRIO/common/Instrument Driver Framework/myRIO v1.0/System/VIs/myRIO v1.0 Wait for RDY.vi"/>
+				<Item Name="myRIO v1.0 Write PWM.vi" Type="VI" URL="/&lt;vilib&gt;/myRIO/common/Instrument Driver Framework/myRIO v1.0/PWM/VIs/myRIO v1.0 Write PWM.vi"/>
+				<Item Name="myRIO v1.1 FPGA.lvbitx" Type="Document" URL="/&lt;vilib&gt;/myRIO/FPGA/bitfiles/myRIO v1.1 FPGA.lvbitx"/>
+				<Item Name="myRIO v1.1 Open PWM.vi" Type="VI" URL="/&lt;vilib&gt;/myRIO/common/Instrument Driver Framework/myRIO v1.0/PWM/VIs/myRIO v1.1 Open PWM.vi"/>
+				<Item Name="myRIO v1.1 Open.vi" Type="VI" URL="/&lt;vilib&gt;/myRIO/common/Instrument Driver Framework/myRIO v1.0/myRIO v1.1 Open.vi"/>
+				<Item Name="myRIO v1.1 PWM Channels Enum.ctl" Type="VI" URL="/&lt;vilib&gt;/myRIO/common/Instrument Driver Framework/myRIO v1.0/PWM/Typedefs/myRIO v1.1 PWM Channels Enum.ctl"/>
+				<Item Name="Named Mutex.ctl" Type="VI" URL="/&lt;vilib&gt;/myRIO/common/Instrument Driver Framework/utilities/Typedefs/Named Mutex.ctl"/>
+				<Item Name="PWM Channels Enum.ctl" Type="VI" URL="/&lt;vilib&gt;/myRIO/common/Instrument Driver Framework/myRIO v1.0/PWM/Typedefs/PWM Channels Enum.ctl"/>
+				<Item Name="PWM Channels FPGA Reference.ctl" Type="VI" URL="/&lt;vilib&gt;/myRIO/common/Instrument Driver Framework/myRIO v1.0/PWM/Typedefs/PWM Channels FPGA Reference.ctl"/>
+				<Item Name="PWM Configuration v1.0.ctl" Type="VI" URL="/&lt;vilib&gt;/myRIO/common/Instrument Driver Framework/myRIO v1.0/PWM/Typedefs/PWM Configuration v1.0.ctl"/>
+				<Item Name="PWM.lvlib" Type="Library" URL="/&lt;vilib&gt;/myRIO/Instrument Drivers/Onboard IO/PWM/PWM.lvlib"/>
+				<Item Name="Reentrant Mutex.ctl" Type="VI" URL="/&lt;vilib&gt;/myRIO/common/Instrument Driver Framework/utilities/Typedefs/Reentrant Mutex.ctl"/>
+				<Item Name="Ref Counter Action Enum.ctl" Type="VI" URL="/&lt;vilib&gt;/myRIO/common/Instrument Driver Framework/utilities/Typedefs/Ref Counter Action Enum.ctl"/>
+				<Item Name="Ref Counter.vi" Type="VI" URL="/&lt;vilib&gt;/myRIO/common/Instrument Driver Framework/utilities/VIs/Ref Counter.vi"/>
+				<Item Name="Resource Manager Action Enum.ctl" Type="VI" URL="/&lt;vilib&gt;/myRIO/common/Instrument Driver Framework/utilities/Typedefs/Resource Manager Action Enum.ctl"/>
+				<Item Name="roboRIO PWM Channels FPGA Reference.ctl" Type="VI" URL="/&lt;vilib&gt;/myRIO/common/Instrument Driver Framework/roboRIO v1.0/PWM/Typedefs/roboRIO PWM Channels FPGA Reference.ctl"/>
+				<Item Name="roboRIO v1.0 Write PWM.vi" Type="VI" URL="/&lt;vilib&gt;/myRIO/common/Instrument Driver Framework/roboRIO v1.0/PWM/VIs/roboRIO v1.0 Write PWM.vi"/>
+				<Item Name="System FPGA Reference.ctl" Type="VI" URL="/&lt;vilib&gt;/myRIO/common/Instrument Driver Framework/myRIO v1.0/System/Typedefs/System FPGA Reference.ctl"/>
+				<Item Name="Unlock Mutex.vi" Type="VI" URL="/&lt;vilib&gt;/myRIO/common/Instrument Driver Framework/utilities/VIs/Unlock Mutex.vi"/>
+				<Item Name="Validate Channels.vi" Type="VI" URL="/&lt;vilib&gt;/myRIO/common/Instrument Driver Framework/utilities/VIs/Validate Channels.vi"/>
+				<Item Name="VariantType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/VariantDataType/VariantType.lvlib"/>
+			</Item>
+			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
+		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
 	<Item Name="myRIO-Rubik2" Type="RT myRIO">
@@ -109,16 +172,12 @@ AddOutputFilter chunkFilter
 		<Property Name="target.WebServer.ViAccess" Type="Str">+*</Property>
 		<Property Name="target.webservices.SecurityAPIKey" Type="Str">PqVr/ifkAQh+lVrdPIykXlFvg12GhhQFR8H9cUhphgg=:pTe9HRlQuMfJxAG6QCGq7UvoUpJzAzWGKy5SbZ+roSU=</Property>
 		<Property Name="target.webservices.ValidTimestampWindow" Type="Int">15</Property>
-		<Item Name="SubVIs" Type="Folder">
-			<Item Name="GripSmart.vi" Type="VI" URL="../GripSmart.vi"/>
-			<Item Name="ServoSmartTurn.vi" Type="VI" URL="../ServoSmartTurn.vi"/>
-		</Item>
-		<Item Name="Type Defs" Type="Folder">
-			<Item Name="ServoAbsAngleControl.ctl" Type="VI" URL="../ServoAbsAngleControl.ctl"/>
-			<Item Name="ServoEnumControl.ctl" Type="VI" URL="../ServoEnumControl.ctl"/>
-		</Item>
 		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
+			<Item Name="user.lib" Type="Folder">
+				<Item Name="ServoAbsAngleControl.ctl" Type="VI" URL="/&lt;userlib&gt;/ServoAbsAngleControl.ctl"/>
+				<Item Name="ServoEnumControl.ctl" Type="VI" URL="/&lt;userlib&gt;/ServoEnumControl.ctl"/>
+			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="AI IRQ FPGA Reference.ctl" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/myRIO v1.0/IRQ/typedefs/AI IRQ FPGA Reference.ctl"/>
 				<Item Name="Calculate Clock Settings.vi" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/Utilities/vis/Calculate Clock Settings.vi"/>
@@ -210,6 +269,7 @@ AddOutputFilter chunkFilter
 			<Item Name="rioembeddedcanlvapi.dll" Type="Document" URL="rioembeddedcanlvapi.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="RubikLibrary.lvlib" Type="Library" URL="../../Projekt-RubikLibrary/RubikLibrary.lvlib"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
