@@ -87,10 +87,10 @@
 				<Item Name="Validate Channels.vi" Type="VI" URL="/&lt;vilib&gt;/myRIO/common/Instrument Driver Framework/utilities/VIs/Validate Channels.vi"/>
 				<Item Name="VariantType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/VariantDataType/VariantType.lvlib"/>
 			</Item>
-			<Item Name="GripSmartNoWait.vi" Type="VI" URL="../../Projekt-RubikLibrary/GripSmartNoWait.vi"/>
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="RubikLibraryRT.lvlib" Type="Library" URL="../../Projekt-RubikLibrary/RubikLibraryRT.lvlib"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
@@ -260,7 +260,6 @@ AddOutputFilter chunkFilter
 				<Item Name="Validate Channels.vi" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/Utilities/vis/Validate Channels.vi"/>
 				<Item Name="VariantType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/VariantDataType/VariantType.lvlib"/>
 			</Item>
-			<Item Name="GripSmartNoWait.vi" Type="VI" URL="../../Projekt-RubikLibrary/GripSmartNoWait.vi"/>
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -268,6 +267,7 @@ AddOutputFilter chunkFilter
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="RubikLibrary.lvlib" Type="Library" URL="../../Projekt-RubikLibrary/RubikLibrary.lvlib"/>
+			<Item Name="RubikLibraryRT.lvlib" Type="Library" URL="../../Projekt-RubikLibrary/RubikLibraryRT.lvlib"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
